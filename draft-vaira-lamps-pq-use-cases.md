@@ -12,7 +12,7 @@ title: Post-quantum use cases
 abbrev: PQ use cases
 lang: en
 kw:
-  - post-quantum cryptographysdf
+  - post-quantum cryptography
   - post-quantum use cases
 author:
 - role: editor
@@ -166,7 +166,7 @@ At a high level the signature process can be described with the following steps:
 
 Typically the Signing Service hosts the signing private key in a highly secure environment, e.g. in a Hardware Security Modules (HSM) and performs auditable access control.
 
-~~~~~~~~~~                                              
+~~~~~~~~~~ 
 +-------------------------------------------------------+
 |                         +---------------------------+ |
 |                         |   +-------------------+   | |
@@ -182,7 +182,7 @@ Typically the Signing Service hosts the signing private key in a highly secure e
 |                         |   High security network   | |
 | OEM network             +---------------------------+ |
 +-------------------------------------------------------+
-~~~~~~~~~~                                              
+~~~~~~~~~~
 {: #Central-sig-serv title="central Signing Service"}
 
 In the previous figure all the signing entities, hence the entire signing process, are controlled by the Manufacturer but similar constrains and considerations applies if the Signing Service is provided by a third party. Further security considerations have to be made on the communication channels involved in the exchanges that are required to implement the signature workflow.
